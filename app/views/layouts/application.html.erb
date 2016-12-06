@@ -1,24 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Nameofapp</title>
+	<title>Nameofapp</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <%= csrf_meta_tags %>
 </head>
 <body>
-<nav>
-	<ul>
-		<li>Home</li>
-		<li>About</li>
-		<li>Contact</li>
-	</ul>
-</nav>
-<%= yield %>
+	<nav>
+		<ul>
+			<li>
+			<span class="glyphicon glyphicon-fire"envelope""></span>
+			Home</li>
+			<li>
+			<span class="glyphicon glyphicon-fire"envelope""></span>
+			About</li>
+			<li>
+			<span class="glyphicon glyphicon-fire"envelope""></span>
+			Contact</li>
+		</ul>
+	</nav>
+	<%= yield %>
 
-<footer>
-	&copy; 2016 Beau et Moché
-</footer>
-
+	<footer class="site-footer">
+		&copy; 2016 Beau et Moché
+	</footer>
+	
 </body>
 </html>

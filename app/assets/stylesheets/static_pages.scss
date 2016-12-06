@@ -1,3 +1,33 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+$primaryColor: #eeccff;
+
+h1 {
+  $primaryColor: #ff9999;
+  background: $primaryColor;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  font-weight: 800;
+}
+h2 {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-align: center;
+  font-weight: 200;
+}
+nav {
+  width: 100%;
+  background-color: orange;
+  padding: 0.3em;
+}
+li {
+  display: inline;
+}
+footer{
+	text-align: center;
+}
+.site-footer{
+	background-color: orange;
+}
